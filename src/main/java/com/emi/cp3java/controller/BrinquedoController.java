@@ -62,7 +62,7 @@ public class BrinquedoController {
             summary = "Deletar brinquedo",
             description = "Deleta um brinquedo")
     @ApiResponse(responseCode = "204", description = "Brinquedo deletado")
-    @ApiResponse(responseCode = "404", description = "Brinquedo não encontrado")
+    @ApiResponse(responseCode = "404", description = "Brinquedo não existe")
     @ResponseStatus(HttpStatus.NO_CONTENT)
     public ResponseEntity<?> deletar(@PathVariable int id) {
         Brinquedo brinquedo = service.getBrinquedo(id);
