@@ -2,12 +2,13 @@
 
 ### Buscar brinquedo por ID
 
-- **URL:** `http://cp3java-production.up.railway.app/brinquedos/1`
+- **URL:** `https://cp4java-orclbd-production.up.railway.app/brinquedos/1`
 - **Método:** `GET`
 - **Descrição:** Retorna o brinquedo pelo ID especificado.
 - **Parâmetros de Caminho:**
   - `id` (int): ID do brinquedo a ser buscado.
-![image](https://github.com/user-attachments/assets/620b9d9a-4c4f-4d5c-8d5a-83b4ddf7e852)
+![image](https://github.com/user-attachments/assets/89a7e437-6cd7-416c-aff1-d346b732f218)
+
 
 - **Resposta de Sucesso:**
   - **Código:** `200 OK`
@@ -17,10 +18,12 @@
 
 ### Salvar brinquedo
 
-- **URL:** `https://cp3java-production.up.railway.app/brinquedos`
+- **URL:** `https://cp4java-orclbd-production.up.railway.app/brinquedos`
 - **Método:** `POST`
 - **Descrição:** Salva um novo brinquedo.
-![image](https://github.com/user-attachments/assets/916bb7a8-4b2d-4a74-b2fa-4f739038febf)
+![image](https://github.com/user-attachments/assets/b035700d-aa6a-4c57-bf44-51d355cd41a4)
+
+
 
 - **Resposta de Sucesso:**
   - **Código:** `200 OK`
@@ -30,14 +33,15 @@
 
 ### Atualizar Brinquedos por Id
 
-- **URL:** `http://cp3java-production.up.railway.app/brinquedos/{id}`
+- **URL:** `https://cp4java-orclbd-production.up.railway.app/brinquedos/1`
 - **Método:** `GET`
 - **Descrição:** Atualiza o brinquedo pelo ID especificado.
 - **Parâmetros de Caminho:**
   - `id` (int): ID do brinquedo a ser atualizado.
 - **Resposta de Sucesso:**
   - **Código:** `200 OK`
-![image](https://github.com/user-attachments/assets/14416105-f1cc-45bc-bd6d-eee42603198f)
+![image](https://github.com/user-attachments/assets/6a0819e5-458f-4e0d-8ec3-6a19d6bf6d48)
+
 
 - **Resposta de Erro:**
   - **Código:** `404 Not Found`
@@ -45,15 +49,16 @@
 
 ### Deleta Brinquedos por Id
 
-- **URL:** `http://cp3java-production.up.railway.app/brinquedos/{id}`
+- **URL:** `https://cp4java-production.up.railway.app/brinquedos/1`
 - **Método:** `GET`
 - **Descrição:** Exclui o brinquedo pelo ID especificado.
 - **Parâmetros de Caminho:**
   - `id` (int): ID do brinquedo a ser excluido.
-![image](https://github.com/user-attachments/assets/bc915ded-6961-41d9-8816-3a75fee09f44)
+![image](https://github.com/user-attachments/assets/2f4a8067-a39a-4a7e-9c17-9a96839933fa)
+
 
 - **Resposta de Sucesso:**
-  - **Código:** `200 OK`
+  - **Código:** `204 Not Content`
 - **Resposta de Erro:**
   - **Código:** `404 Not Found`
   - **Mensagem:** Not Found.
